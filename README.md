@@ -1,8 +1,3 @@
-Certainly! Below is a detailed `README.md` file tailored to your Git training session on **21 July 2025** for interns. It covers Git configuration, cloning, branching, conflict resolution, and pushing changes to GitHub.
-
----
-
-````markdown
 # BugTracker - Git Training Session
 
 ### 📅 Date: 21 July 2025  
