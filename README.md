@@ -1,8 +1,6 @@
 # BugTracker - Git Training Session
 
 ### 📅 Date: 21 July 2025  
-### 👨‍🏫 Trainer: Akash  
-### 🧑‍💻 Audience: Interns  
 ---
 
 ## 📘 Overview
