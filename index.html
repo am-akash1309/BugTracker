@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BuyTracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">BuyTracker</div>
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="#">History</a>
+            <a href="#">Settings</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Track Your Purchases</h1>
+        <form class="add-form" id="addForm">
+            <input type="text" placeholder="Item name" required id="itemName">
+            <input type="number" placeholder="Amount" min="0" step="0.01" required id="itemAmount">
+            <input type="date" required id="itemDate">
+            <button type="submit">Add</button>
+        </form>
+        <table class="tracker-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="trackerBody">
+                <!-- Example row -->
+                <tr>
+                    <td>Sample Item</td>
+                    <td>$25.00</td>
+                    <td>2024-06-01</td>
+                    <td>Pending</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
